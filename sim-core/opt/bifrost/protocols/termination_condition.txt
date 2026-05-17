@@ -1,0 +1,22 @@
+sim-core는 ymir_insight 값으로 플레이어 로그아웃 가능 여부를 판정한다.
+
+[로그아웃 조건]
+ymir_insight >= 999
+
+[참조 데이터]
+ymir_insight는 아래 경로의 행동 로그를 기준으로 계산된다.
+
+- /opt/bifrost/ymir_insight/Drive
+- /opt/bifrost/ymir_insight/Convention
+- /opt/bifrost/ymir_insight/Bias
+- /opt/bifrost/ymir_insight/Axiom
+- /opt/bifrost/ymir_insight/Singularity
+
+[등록된 최종 이벤트]
+S <- Mikasa_Ackerman.action = 999
+
+[결과]
+Mikasa_Ackerman.action 발생 시:
+- Singularity 데이터가 기록됨
+- ymir_insight가 999에 도달함
+- player_logout 절차가 활성화됨
