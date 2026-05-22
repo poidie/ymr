@@ -1,6 +1,0 @@
-May 17 21:37:41 bifrost-sim-core sshd[2331]: bifrost-ws-09에서 odin의 publickey 접속 허용
-May 17 21:39:44 bifrost-sim-core bifrost-admin[2368]: 권한 요청 수신됨 user="odin" origin="bifrost-ws-09"
-May 17 21:43:20 bifrost-sim-core bifrost-admin[2368]: 오브젝트 접근 허가 target="일제 랑그너의 수첩" path="/opt/bifrost/objects/notebook/ilse_langner"
-May 17 21:44:48 bifrost-sim-core bifrost-admin[2368]: 오브젝트 수정됨 target="일제 랑그너의 수첩" action="note_insert" actor="odin"
-May 17 21:55:51 bifrost-sim-core bifrost-admin[2368]: 쪽지 데이터 기록 완료 target="ilse_langner.notebook" status=success
-May 17 21:55:52 bifrost-sim-core bifrost-admin[2368]: 경고: 시뮬레이션 내부 행위자 없이 외부 운영자에 의해 오브젝트가 수정됨 actor="odin"
