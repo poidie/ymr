@@ -20,3 +20,4 @@ Mikasa_Ackerman.action 발생 시:
 - Singularity 데이터가 기록됨
 - ymir_insight가 999에 도달함
 - player_logout 절차가 활성화됨
+- 또다른 Singularity 발생 시 Mikasa_Ackerman.action 대체 가능
